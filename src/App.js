@@ -18,6 +18,7 @@ import { ActivityProvider } from "./contexts/ActivityContext";
 import Activity from "./components/members/activity/Activity";
 import { NoticeProvider } from "./contexts/NoticeContext";
 import Notice from "./components/members/notice/Notice";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function AppContent() {
   const location = useLocation();
